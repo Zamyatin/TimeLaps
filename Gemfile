@@ -24,6 +24,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Let's have some fun with Mongoid
 gem 'mongoid'
 
+# Because who doesn't love HAML?
+gem 'haml'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
