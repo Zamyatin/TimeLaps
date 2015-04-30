@@ -6,5 +6,5 @@ class User < ActiveRecord::Base
 
   has_many :garages
   has_many :cars, through: :garages
-  has_many :owned_cars, though: :cars, foreign_key: 'owner_id'
+  has_many :owned_cars, through: :cars, foreign_key: 'owner_id'
 end
