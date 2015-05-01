@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150430061651) do
+ActiveRecord::Schema.define(version: 20150501062114) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,9 +23,21 @@ ActiveRecord::Schema.define(version: 20150430061651) do
     t.string   "vin"
     t.integer  "modification_id"
     t.integer  "edmunds_listing_id"
-    t.datetime "created_at",         null: false
-    t.datetime "updated_at",         null: false
+    t.datetime "created_at",                         null: false
+    t.datetime "updated_at",                         null: false
     t.integer  "owner_id"
+    t.string   "make"
+    t.string   "model"
+    t.string   "year"
+    t.string   "trim"
+    t.integer  "epa_id"
+    t.float    "displ"
+    t.integer  "cylinders"
+    t.string   "vehicle_class"
+    t.boolean  "s_charger",          default: false
+    t.boolean  "t_charger",          default: false
+    t.string   "drive"
+    t.string   "trany"
   end
 
   create_table "garages", force: :cascade do |t|
