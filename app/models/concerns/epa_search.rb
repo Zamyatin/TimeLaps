@@ -35,7 +35,8 @@ module EPASearch
      
      result = HTTParty.get(VEHICLE_SEARCH + vehicle_id.to_s)
      car_hash = result.parsed_response["vehicle"]
-     OpenStruct.new(car_hash)
+     car = OpenStruct.new(car_hash)
+     return car
    end
     
   end
