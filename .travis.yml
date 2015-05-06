@@ -1,0 +1,11 @@
+language: ruby
+rvm:
+  - "2.2.1"
+
+
+notifications:
+  slack: rajcorp:OIn6I78claQhOZtjNMzN5hLQ
+
+  
+# uncomment this line if your project needs to run something other than `rake`:
+# script: bundle exec rspec spec
