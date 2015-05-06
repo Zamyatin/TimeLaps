@@ -2,10 +2,19 @@ language: ruby
 rvm:
   - "2.2.1"
 
-
 notifications:
-  slack: rajcorp:OIn6I78claQhOZtjNMzN5hLQ
+  slack: rajcorp:WU5RmbTSHgiDqo7zp9orcC4L
 
-  
+addons:
+  postgres: "9.3.5"
+
+before_script:
+  - psql -c 'create database travis_ci_test;' -U postgres
+
+test:
+  adapter: postgresql
+  database: travis_ci_test
+  username: postgres
+
 # uncomment this line if your project needs to run something other than `rake`:
 # script: bundle exec rspec spec
