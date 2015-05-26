@@ -1,4 +1,6 @@
 language: ruby
+cache: bundler
+
 rvm:
   - "2.2.1"
 
@@ -17,4 +19,5 @@ test:
   username: postgres
 
 # uncomment this line if your project needs to run something other than `rake`:
-# script: bundle exec rspec spec
+script:
+  - bundle exec rake db:test:prepare
