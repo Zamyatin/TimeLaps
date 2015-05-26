@@ -8,7 +8,7 @@ class CarController < ApplicationController
     car = Car.epa_vehicle_by_id(id: params[:epa_id])
     new_car = Car.import_car_from_epa(car)
     if new_car.save
-      render 'show'
+      render "show"
     else
       render :new
     end
@@ -25,5 +25,4 @@ class CarController < ApplicationController
 
   def delete
   end
-
 end
