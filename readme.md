@@ -1,16 +1,16 @@
 ##Blow the doors off GearHead-based stereotypes
 
 
-[Coming soon to Heroku](http://timelapse.herokuapp.com)
+[Coming soon to Heroku](http://timelaps.herokuapp.com)
 
 
 ###Listen. Admitting to being a *GearHead* shouldn't be an indictment of your social conscience.
 
 
-**TimeLapse** exists to express your love of automotive-based awesomeness.  Anyone 'in the know' in the automotive world recognizes that auto racing is as much about a car's engineering and design as it is about the driver's skill, technique, and style.  
+**Timelaps** exists to express your love of automotive-based awesomeness.  Anyone 'in the know' in the automotive world recognizes that auto racing is as much about a car's engineering and design as it is about the driver's skill, technique, and style.  
 
 ##What is it?
-TimeLapse is an open sourced web application designed to allow *anyone* who is a fan of auto racing to watch the sport from a whole new perspective.  View racing live streams, hear driver radio chat, watch the car respond to driver inputs, and get ideas for modifications and tuning.  
+**Timelaps** is an open sourced web application designed to allow *anyone* who is a fan of auto racing to watch the sport from a whole new perspective.  View racing live streams, hear driver radio chat, watch the car respond to driver inputs, and get ideas for modifications and tuning.  
 
 Following a driver or favoriting a car will give racing enthusiasts a chance to understand racing, and race driving, in a whole new way.  Instead of watching a once-a-week or once-a-month race on race day, fans can now subscribe to feeds and watch their favorite drivers change their driving style *over time*, learning tricks, improving, and adjusting to environments.
 
@@ -52,4 +52,3 @@ Fans (and Tuners) will also be able to follow their favorite *RIDES*, watching a
 * [Travis CI](https://travis-ci.org/Zamyatin/TimeLaps)
 
 [logo]: (./app/assets/images/time_lapse.jpg) "Thanks for checking out TimeLaps"
-[schema]: (http://github.com/Zamyatin/TimeLaps/blob/master/app/assets/images/schema.png) "Witness and Testify!"
