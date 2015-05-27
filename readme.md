@@ -43,7 +43,7 @@ Fans (and Tuners) will also be able to follow their favorite *RIDES*, watching a
 * [HoundCI Thoughtbot Style Guides](https://houndci.com)
 
 ####Here's our Schema
-![Here's our Schema][schema]
+![schema](https://github.com/Zamyatin/TimeLaps/blob/master/app/assets/images/schema.png "Schema")
 
 ####Interested in Developing for TimeLaps?###
 * [e-mail Raj for an invite to be a contributor!](<mailto:raj@foreversingh.com>)
