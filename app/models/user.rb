@@ -5,6 +5,6 @@ class User < ActiveRecord::Base
          :recoverable, :rememberable, :validatable
 
   has_many :garages
-  has_many :cars, through: :garages
+  has_many :favorite_cars, through: :garages
   has_many :owned_cars, through: :cars, foreign_key: 'owner_id'
 end
