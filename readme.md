@@ -1,6 +1,6 @@
 ##Blow the doors off GearHead-based stereotypes
-  
-  
+
+
 [Coming soon to Heroku](http://timelapse.herokuapp.com)
 
 
@@ -42,8 +42,14 @@ Fans (and Tuners) will also be able to follow their favorite *RIDES*, watching a
 * [Capybara](https://rubygems.org/gems/capybara)
 * [HoundCI Thoughtbot Style Guides](https://houndci.com)
 
+####Here's our Schema
+![Here's our Schema][schema]
+
 ####Interested in Developing for TimeLaps?###
 * [e-mail Raj for an invite to be a contributor!](<mailto:raj@foreversingh.com>)
 * Fork the repo!
 * [Our Taiga-Kanban Board](https://tree.taiga.io/project/zamyatin-timelapse/kanban)
 * [Travis CI](https://travis-ci.org/Zamyatin/TimeLaps)
+
+[logo]: (./app/assets/images/time_lapse.jpg) "Thanks for checking out TimeLaps"
+[schema]: (http://github.com/Zamyatin/TimeLaps/blob/master/app/assets/images/schema.png) "Witness and Testify!"
